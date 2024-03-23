@@ -9,7 +9,7 @@ body{
     justify-content: center;
     align-items: center;
     height:100vh;
-    background: radial-gradient(circle,#05263c,#000);
+    background: radial-gradient(circle,#05263c,#f029cf);
 }
 .aouhter{
     color:#000000;
