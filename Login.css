@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background: linear-gradient(to right,#d42f13,#d3d411,#1a11d4);
+}
+.form{
+    border:1px solid #000;
+    padding:50px 60px;
+    border-radius: 10px;
+}
+.username{
+    height:5vh;
+    width:23vw;
+    outline-color: #138cd4;
+}
+.password{
+    height:5vh;
+    width:23vw;
+    outline-color: #138cd4;
+}
+.user{
+    font-family: sans-serif;
+}
+.pass{
+    font-family: sans-serif;
+}
+h2{
+    font-family: sans-serif;
+    padding-left: 100px;
+    position:absolute;
+    top:210px;
+}
+button{
+    height:5vh;
+    width:23vw;
+    background-color: #1a59a7;
+    border-radius: 10px;
+    color:#ffffff;
+}

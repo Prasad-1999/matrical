@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding:0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #5f11d4;
+  }
+  
+  .clock {
+    font-family: Arial, sans-serif;
+    font-size: 4em;
+    color: #333;
+    text-align: center;
+    border:3px solid #11d3d4;
+    padding :10px 15px;
+  }
+  .clock:hover{
+    background-color: #c111d4;
+  }
+  .time {
+    font-weight: bold;
+  }
+  
